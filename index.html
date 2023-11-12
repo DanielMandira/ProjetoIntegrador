@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="icon" href="./imgs/icon.svg" type="x-icon">
+    <title>GO DEV</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <main>
+        <!-- Header -->
+        <header>
+            <!-- Logo da Go DEV -->
+            <section class="logo">
+                <img src="./imgs/GoDev.svg">
+            </section>
+            <!-- Topicos da pagina -->
+            <nav>
+                <section class="navitens">
+                    <p><a href="#produto-container">Produtos</a></p>
+                </section>
+
+                <section class="navitens">
+                    <p><a href="#">Tecnologias</a></p>
+                </section>
+
+                <section class="navitens">
+                    <p><a href="#">Quem Somos</a></p>
+                </section>
+
+                <section class="navitens">
+                    <p><a href="#">Contato</a></p>
+                </section>
+            </nav>
+            <div class="navsuporte">
+                <img src="./imgs/suporte.svg">
+                <p><a href="#">&nbsp;&nbsp;&nbsp;Suporte</a></p>
+                </section>
+        </header>
+        <!-- Carrosel  -->
+        <section class="slideshow-container">
+            <div class="mySlides fade">
+                <!-- Itens do carrosel: Numero do Slide -->
+                <div class="numbertext">1 / 3</div>
+                <!-- Imagem -->
+                <img src="./imgs/slide1.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="./imgs/slide2.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./imgs/slide3.png" style="width:100%">
+            </div>
+            <!-- Botoes do carrosel para frente e para tras -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <!-- icones do carrosel, bolinhas de identificação de slide -->
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+        <section id="produto-container" class="produto-container">
+            <div class="produto-resumo">
+                <div class="produto-logo">
+                    <img src="./imgs/scancoffee.svg">
+                </div>
+                <div class="produto-text">
+                    <h1>Scan Coffe</h1>
+                    <p>O objetivo deste projeto e que o cafeicultor possa analisar as folhas de café com o auxílio da
+                        IA, e
+                        possa identificar a presença da infestação de forma rápida e eficiente, sem depender da presença
+                        de
+                        profissionais e de um laboratório, otimizando o tempo de diagnóstico e assim poder iniciar um
+                        tratamento preventivo contra a infestação.</p>
+                </div>
+            </div>
+            <div class="produtos-imgs">
+                <div class="telas">
+                    <p>Tela Home</p>
+                    <img src="./imgs/Home.png">
+                </div>
+                <div class="telas">
+                    <p>Tela de Escaneio</p>
+                    <img src="./imgs/Escanear.png">
+                </div>
+                <div class="telas">
+                    <p>Tela de Resultado</p>
+                    <img src="./imgs/Resultados.png">
+                </div>
+                <div class="telas">
+                    <p>Tela de Historico</p>
+                    <img src="./imgs/Historico.png">
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+</body>
+
+</html>
