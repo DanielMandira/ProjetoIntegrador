@@ -8,13 +8,14 @@
     <title>GO DEV</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./script.js"></script>
 </head>
 
 <body>
     <main>
         <!-- Header -->
-        <header>
+        <header class="topnav" id="myTopnav">
             <!-- Logo da Go DEV -->
             <section class="logo">
                 <img src="./imgs/GoDev.svg">
@@ -26,7 +27,7 @@
                 </section>
 
                 <section class="navitens">
-                    <p><a href="#">Tecnologias</a></p>
+                    <p><a href="#tecnologias-container">Tecnologias</a></p>
                 </section>
 
                 <section class="navitens">
@@ -39,8 +40,13 @@
             </nav>
             <div class="navsuporte">
                 <img src="./imgs/suporte.svg">
-                <p><a href="#">&nbsp;&nbsp;&nbsp;Suporte</a></p>
-                </section>
+                <p><a href="#">&nbsp;Suporte</a></p>
+            </div>
+            <div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </header>
         <!-- Carrosel  -->
         <section class="slideshow-container">
@@ -76,7 +82,7 @@
                     <img src="./imgs/scancoffee.svg">
                 </div>
                 <div class="produto-text">
-                    <h1>Scan Coffe</h1>
+                    <h1>Scan Coffee</h1>
                     <p>O objetivo deste projeto e que o cafeicultor possa analisar as folhas de café com o auxílio da
                         IA, e
                         possa identificar a presença da infestação de forma rápida e eficiente, sem depender da presença
@@ -104,8 +110,60 @@
                 </div>
             </div>
         </section>
+        <section id="tecnologias-container" class="tecnologias-container">
+            <div class="tecnologias">
+                <div class="tecnologias-imgs">
+                    <img src="./imgs/geolocalizacao.svg">
+                </div>
+                <div class="tecnologias-text">
+                    <p><b>Geolocalização</b> é uma forma de localizar pessoas ou objetos por meio da tecnologia. <br> Ela se baseia em coordenadas geográficas (latitude e longitude), que são detectadas por satélites e então enviadas para o celular, tablet ou computador.
+                    </div>
+                </p>
+            </div>
 
+            <div class="tecnologias">
+                <div class="tecnologias-imgs">
+                    <img src="./imgs/ia.svg">
+                </div>
+                <div class="tecnologias-text">
+                    <p><b>Inteligência Artificial (IA)</b> é um ramo da ciência da computação que se concentra no desenvolvimento de sistemas e algoritmos capazes de realizar tarefas que normalmente exigem inteligência humana. <br> Essas tarefas incluem: Aprendizado; Raciocínio; Percepção; Compreensão e geração de linguagem natural; Reconhecimento de voz e imagem; Tomada de decisão; e Resolução de problemas complexos.</p>
+                </div>
+            </div>
+            <div class="tecnologias">
+                <div class="tecnologias-imgs">
+                    <img src="./imgs/cloud.svg">
+                </div>
+                <div class="tecnologias-text">
+                    <p><b>Computação em nuvem</b> é o fornecimento de serviços de computação, incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, pela Internet para oferecer inovações mais rápidas, recursos flexíveis e economias de escala.<br> Os recursos são disponibilizados conforme as necessidades dos usuários, de forma rápida e eficiente, ajudando a reduzir os custos operacionais.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div>
+                    <img src="#">
+                </div>
+                <div>
+                    teste
+                </div>
+            </div>
+            <div>
+                <div>
 
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+            <div>
+                <div>
+
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </section>
 
     </main>
 </body>
