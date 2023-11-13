@@ -24,6 +24,7 @@ a {
 .logo img {
   max-width: 3em;
   height: auto;
+  image-rendering: optimizeSpeed;
 }
 
 .slideshow-container {
@@ -40,6 +41,7 @@ a {
 }
 .mySlides img{
   border-radius: 20px;
+  image-rendering: optimizeSpeed;
 }
 
 .prev,
@@ -127,7 +129,6 @@ a {
     flex-flow: column;
     justify-content: space-between;
     background-color: var(--claro);
-
     flex-wrap: wrap;
   }
 
@@ -190,6 +191,8 @@ a {
 
   .navsuporte img {
     max-width: 35%;
+    image-rendering: optimizeSpeed;
+
   }
 
   .produto-container {
@@ -213,6 +216,8 @@ a {
 
   .produto-logo img {
     padding: 1em;
+    image-rendering: optimizeSpeed;
+
   }
 
   .produto-text {
@@ -236,12 +241,15 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+
   }
 
   .produtos-imgs img {
     margin: .5em;
     width: auto;
     max-height: 250px;
+    image-rendering: optimizeSpeed;
+
   }
 
   .telas {
@@ -267,6 +275,8 @@ a {
   .tecnologias-imgs img{
     max-width: 9em;
     height: auto;
+    image-rendering: optimizeSpeed;
+
   }
   .tecnologias-text{
     color: var(--claro);
@@ -373,6 +383,8 @@ a {
 
   .navsuporte img {
     max-width: 40%;
+    image-rendering: optimizeSpeed;
+
   }
 
   .produto-container {
@@ -397,6 +409,8 @@ a {
 
   .produto-logo img {
     padding: 1em;
+    image-rendering: optimizeSpeed;
+
   }
 
   .produto-text {
@@ -429,6 +443,8 @@ a {
     margin: .5em;
     width: auto;
     max-height: 250px;
+    image-rendering: optimizeSpeed;
+
   }
 
   .telas {
@@ -456,6 +472,8 @@ a {
   }
   .tecnologias-imgs img{
     max-width: 10em;
+    image-rendering: optimizeSpeed;
+
   }
   .tecnologias-text{
     color: var(--claro);
@@ -487,6 +505,8 @@ a {
     max-width: 55%;
     max-height:auto;
     border-radius: 10px;
+    image-rendering: optimizeSpeed;
+
   }
   .sobre-text{
     text-wrap: wrap;
