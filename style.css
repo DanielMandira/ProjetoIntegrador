@@ -5,6 +5,7 @@
   --verdeScanCoffee: #8EC641;
   --laranjaHover: #e16600;
   --azulHover: #010012;
+  --azulFraco: #010019b3;
 }
 
 * {
@@ -35,6 +36,10 @@ a {
 
 .mySlides {
   display: none;
+  
+}
+.mySlides img{
+  border-radius: 20px;
 }
 
 .prev,
@@ -193,6 +198,7 @@ a {
     flex-wrap: wrap;
     margin-top: 3em;
     background-color: var(--verdeScanCoffee);
+    border-radius: 20px;
   }
 
   .produto-resumo {
@@ -255,7 +261,8 @@ a {
     align-items: center;
     margin: .5em;
     padding: .5em;
-    background-color: #FF7400;
+    background-color: var(--laranjaGoDev);
+    border-radius: 20px;
   }
   .tecnologias-imgs img{
     max-width: 9em;
@@ -265,6 +272,7 @@ a {
     color: var(--claro);
     font-size: clamp(0.8em, 1em + 1vw, 1.5em);
     text-align: justify;
+    text-align-last: justify;
     padding: 1em;
     text-indent: 1em;
 
@@ -373,6 +381,7 @@ a {
     flex-wrap: wrap;
     margin-top: 3em;
     background-color: var(--verdeScanCoffee);
+    border-radius: 20px;
   }
 
   .produto-resumo {
@@ -432,14 +441,17 @@ a {
     flex-direction: row;
     margin-top: 3em;    
     justify-content: stretch;
+    
   }
   .tecnologias{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     margin: .5em;
     padding: .5em;
-    background-color: #FF7400;
+    background-color: var(--laranjaGoDev);
+    border-radius: 20px;
 
   }
   .tecnologias-imgs img{
@@ -447,10 +459,38 @@ a {
   }
   .tecnologias-text{
     color: var(--claro);
-    font-size: clamp(0.8em, 1em + 1vw, 1.5em);
-    text-align: justify;
-    text-indent: 1em;
+    font-size: clamp(0.6em, 0.9em + 1vw, 1.2em);
+    text-align: start;
+    padding: .5em;
+  }
+  .sobre-container{
+    margin-top: 3em;
+    background-color:var(--azulFraco) ;
+    padding: 1em;
+    display: flex;
+    justify-content: stretch;
+    border-radius: 20px;
 
+  }
+  .sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 250px;
+  }
+  .sobre-imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sobre-imgs img{
+    max-width: 55%;
+    max-height:auto;
+    border-radius: 10px;
+  }
+  .sobre-text{
+    text-wrap: wrap;
+    color: var(--claro);
   }
  
 }
