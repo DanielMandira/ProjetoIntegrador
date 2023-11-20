@@ -121,7 +121,7 @@ a {
 
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
   header {
     display: flex;
     flex-direction: row;
@@ -285,9 +285,55 @@ a {
     text-align-last: justify;
     padding: 1em;
     text-indent: 1em;
-
   }
-}
+    .sobre-container{
+      margin-top: 3em;
+      background-color:var(--azulFraco) ;
+      display: flex;
+      justify-content:space-around;
+      flex-direction: column;
+      border-radius: 20px;
+      padding: 2em;
+  
+    }
+    .sobre{
+      display: flex;
+      flex-direction: column;
+    }
+    .sobre-imgs{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .sobre-imgs img{
+      width:40%;
+      max-height:auto;
+      border-radius: 10px;
+      image-rendering: optimizeSpeed;
+  
+    }
+    .sobre-text{
+      display: flex;
+      flex-direction: row;
+      text-wrap: wrap;
+      text-align: start;
+      color: var(--claro);
+      justify-content: center;
+      align-items: center;
+      padding: 2em;
+      font-size: clamp(0.6em, 0.9em + 1vw, 1.2em);
+    }
+    .contato-container{
+      background-color: var(--laranjaGoDev);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 3em;
+      border-radius: 20px;
+      padding: 2em;
+     }
+      }
 
 
 
@@ -300,7 +346,7 @@ a {
 
 
 
-@media only screen and (min-width:751px) {
+@media only screen and (min-width:801px) {
   header {
     display: flex;
     flex-direction: row;
@@ -484,35 +530,60 @@ a {
   .sobre-container{
     margin-top: 3em;
     background-color:var(--azulFraco) ;
-    padding: 1em;
     display: flex;
-    justify-content: stretch;
+    justify-content:space-around;
+    flex-direction: row;
     border-radius: 20px;
 
   }
   .sobre{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 250px;
+    flex-direction: row;
+    margin-right: 2em;
   }
   .sobre-imgs{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: -1.5em;
   }
   .sobre-imgs img{
-    max-width: 55%;
+    width:60%;
     max-height:auto;
     border-radius: 10px;
     image-rendering: optimizeSpeed;
 
   }
   .sobre-text{
+    display: flex;
+    flex-direction: row;
     text-wrap: wrap;
     color: var(--claro);
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(0.6em, 0.9em + 1vw, 1.2em);
   }
- 
+  .sobre-text{
+    display: flex;
+    flex-direction: row;
+    text-wrap: wrap;
+    text-align: start;
+    color: var(--claro);
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    font-size: clamp(0.6em, 0.9em + 1vw, 1.2em);
+  }
+  .contato-container{
+    background-color: var(--laranjaGoDev);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3em;
+    border-radius: 20px;
+    padding: 2em;
+   }
 }
 
 
