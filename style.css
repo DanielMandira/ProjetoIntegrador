@@ -327,7 +327,7 @@ a {
     .contato-container{
       background-color: var(--laranjaGoDev);
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-between;
       margin-top: 3em;
       border-radius: 20px;
