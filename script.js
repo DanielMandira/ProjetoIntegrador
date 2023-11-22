@@ -35,3 +35,14 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+function loading(){
+  document.querySelector('body').style.visibility="hidden";
+  document.querySelector("body").style.overflow="hidden";
+  document.getElementById("load").style.visibility="visible";
+  setTimeout(()=>{
+    document.getElementById("load").style.visibility="hidden";
+    document.querySelector("body").style.overflow="visible";
+    document.querySelector("body").style.visibility="visible";
+  },500)
+}
